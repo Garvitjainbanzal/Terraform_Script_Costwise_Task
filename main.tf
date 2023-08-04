@@ -1,3 +1,5 @@
+provider "aws" {}
+
 resource "aws_security_group" "EC2_SECURITY_GROUP" {
   name_prefix = "ec2-sg-"
 }
