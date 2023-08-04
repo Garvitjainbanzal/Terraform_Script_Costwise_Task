@@ -20,10 +20,12 @@ Given Task :
 
 
 Remember to replace the AMI_ID, Security Group Id, etc. with your respective ones to run it succesfully.
-After this execute the following commands :
-	$ terraform init
+After this execute the following commands:
+	
+ 	$ terraform init
 	$ terraform fmt
 	$ terraform validate
 	$ terraform plan
 	$ terraform apply -auto-approve
+ 
 This will complete the task successfully.
